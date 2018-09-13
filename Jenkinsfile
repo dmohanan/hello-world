@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Initializing') {
       parallel {
-        stage('Initializing') {
+        stage('SCM Checkout') {
           steps {
             echo 'SCM checkout'
           }
