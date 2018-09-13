@@ -20,7 +20,7 @@ pipeline {
         }
       }
     }
-    stage('Testing') {
+    stage('TESTING') {
       steps {
         echo 'Jnuit testing'
       }
